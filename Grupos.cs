@@ -8,7 +8,6 @@ namespace collection.MVVM.Models
 {
     public class Grupos
     {
-        public string? Image { get; set; } 
-        public string? Name { get; set; }
+        public string? Image { get; set; }
     }
 }
