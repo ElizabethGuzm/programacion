@@ -10,35 +10,29 @@ public class ViewModel : BindableObject
 	public ViewModel()
 	{
 		Grupo = new ObservableCollection<Grupos>();
-		new Grupos 
+		Grupo.Add(new Grupos
 		{
 			Image ="amarillo.png",
-            Name= "Amarillo",
-		};
-    new Grupos
+		});
+    Grupo.Add(new Grupos
           {
               Image = "cafe.png",
-              Name="Cafe",
-          };
-new Grupos
+          });
+Grupo.Add(new Grupos
           {
               Image = "morado.png",
-              Name = "Morado"
-          };
-new Grupos
+          });
+Grupo.Add(new Grupos
 {
     Image = "naranja.png",
-    Name = "Naranja",
-};
-new Grupos
+});
+Grupo.Add(new Grupos
 {
     Image = "rojo.png",
-    Name = "Rojo",
-};
-new Grupos
+});
+Grupo.Add(new Grupos
 {
     Image = "verde.png",
-    Name = "Verde",
-};
+});
 	}
 }
