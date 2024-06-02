@@ -5,6 +5,16 @@
              Title="DataView">
 
     <CollectionView ItemsSource="{Binding Grupo}">
+        <CollectionView.Header>
+            <VerticalStackLayout>
+                <Image Source="ira.png"/>
+                <Label FontAttributes="Bold"
+                   Text="RUTAS"
+                   TextColor="#38B6FF"
+                   HorizontalOptions="Center"
+                  FontSize="25"/>
+            </VerticalStackLayout>
+        </CollectionView.Header>
         <CollectionView.ItemsLayout>
             <GridItemsLayout Orientation="Vertical" Span="2"/>
         </CollectionView.ItemsLayout>
