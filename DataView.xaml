@@ -20,12 +20,7 @@
         </CollectionView.ItemsLayout>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Frame Margin="15">
-                    <VerticalStackLayout>
-                        <ImageButton Source="{Binding Image}"/>
-                        <Label Text="{Binding Name}"/>
-                    </VerticalStackLayout>
-                </Frame>
+                <ImageButton Source="{Binding Image}" Aspect="AspectFit" WidthRequest="200" HeightRequest="200"/>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
